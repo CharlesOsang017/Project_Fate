@@ -1,0 +1,90 @@
+html{
+    background-image: url("https://images.pexels.com/photos/3761272/pexels-photo-3761272.jpeg?cs=srgb&dl=woman-in-orange-and-pink-long-sleeve-shirt-wearing-black-vr-3761272.jpg&fm=jpg");
+    background-size: cover;
+}
+img{
+    height: 450px;
+    width:455px ;
+}
+#links{
+    position:absolute;
+    width:304px;
+    height:146px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 42px;
+    letter-spacing: 0.005em;
+}
+.heading,#title{
+    text-align: center;
+    margin-left: 400px;
+
+}
+.heading{
+    text-shadow: 3px 3px 6px blue;
+}
+#title,p,.lists{
+    font-size: 30px;
+}
+input{
+    display:flex;
+   flex-direction: row-reverse;
+}
+#icons{
+    position: absolute;
+    width: 543px;
+    height: 44px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+}
+i>img{
+    height: 50px;
+    width: 50px;
+}
+
+i{
+    float: right;
+    position: relative;
+}
+
+nav{
+    float: right;
+    
+}
+
+
+nav ul {
+    text-align: right;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    /* margin-right: ; */
+    padding-left: 20px 0;
+    color: white;
+    top: 0%;
+    justify-content: space-between;
+}
+
+nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background:blue;
+    color:black;
+}
