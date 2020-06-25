@@ -23,7 +23,7 @@ img{
 
 }
 .heading{
-    text-shadow: 3px 3px 6px blue;
+    text-shadow: 3px 3px 6px greenyellow;
 }
 #title,p,.lists{
     font-size: 30px;
@@ -44,8 +44,8 @@ input{
     
 }
 i>img{
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
 }
 
 i{
